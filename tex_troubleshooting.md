@@ -4,6 +4,7 @@ Matplotlib has the option to use LaTeX to manage all text layout. This option is
   - Agg
   - PS
   - PDF
+  
 The LaTeX option is activated by setting text.usetex : True in your rc settings. Text handling with matplotlib's LaTeX support is slower than matplotlib's very capable :doc:mathtext </tutorials/text/mathtext>, but is more flexible, since different LaTeX packages (font packages, math packages, etc.) can be used. The results can be striking, especially when you take care to use the same fonts in your figures as in the main document.
 
 Matplotlib's LaTeX support requires a working LaTeX_ installation, dvipng_ (which may be included with your LaTeX installation), and Ghostscript_ (GPL Ghostscript 9.0 or later is required). The executables for these external dependencies must all be located on your :envvar:PATH.
